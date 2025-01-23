@@ -1,0 +1,6 @@
+[Unit]
+Description=Flush DNS cache for hostnames listed in /hostnames
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/flush_hostnames.sh
